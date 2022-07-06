@@ -5,7 +5,7 @@ import bodyParser from 'body-parser';
 import { Crypto } from '@peculiar/webcrypto';
 
 const app = express()
-const port = 80
+const port = process.env.PORT
 const crypto = new Crypto();
 
 const BOT_API_URL = "https://api.telegram.org/bot";
