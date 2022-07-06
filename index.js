@@ -9,7 +9,7 @@ const port = 80
 const crypto = new Crypto();
 
 const BOT_API_URL = "https://api.telegram.org/bot";
-const APP_BASE_URL = "https://YOUR_HOST_URL_HERE/"; // Used to tell bot what page to open
+const APP_BASE_URL = process.env.APP_BASE_URL; // Used to tell bot what page to open
 
 // App logic
 
