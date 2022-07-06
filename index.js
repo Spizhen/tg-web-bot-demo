@@ -17,6 +17,10 @@ app.use(express.urlencoded({ extended: true }))
 app.use(bodyParser.json());
 app.use(express.static('public'));
 
+app.get('/', function(req, res) {
+    res.sendFile('public/index.html');
+});
+
 app.post('/demo/checkData', async (req, res) => {
     const initData = req.body._auth;
     if (!initData) {
