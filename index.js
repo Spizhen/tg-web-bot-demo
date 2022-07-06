@@ -52,8 +52,8 @@ app.post('/demo/sendMessage', async (req, res) => {
             result: {
                 type: 'photo',
                 id: '42',
-                photo_url: 'https://picsum.photos/600/300.jpg',
-                thumb_url: 'https://picsum.photos/600/300.jpg',
+                photo_url: 'https://picsum.photos/600/400.jpg',
+                thumb_url: 'https://picsum.photos/600/400.jpg',
                 reply_markup: {
                     inline_keyboard: [[
                         {
