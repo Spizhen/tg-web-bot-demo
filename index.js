@@ -143,6 +143,7 @@ function sendSimpleModeButton(chatId) {
                     web_app: { url: APP_BASE_URL + "simple.html" }
                 },
             ]],
+            resize_keyboard: true,
         },
     }).catch(err => {
         console.log(err);
