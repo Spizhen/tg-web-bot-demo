@@ -140,7 +140,7 @@ function sendSimpleModeButton(chatId) {
             keyboard: [[
                 {
                     text: "Open simple mode",
-                    web_app: { url: APP_BASE_URL + "simple.html" }
+                    web_app: { url: APP_BASE_URL + "images.html" }
                 },
             ]],
             resize_keyboard: true,
